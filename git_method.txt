@@ -1,0 +1,25 @@
+Gitをリモートに反映させる手順。
+
+[Localの変更をremoteに反映。]
+1.commit. コメント付きで。
+2.push(push origin)
+
+[Remoteの変更をlocalに反映。]
+2.pull origin
+
+[その日の終わりに更新]
+
+[フォルダのgit化]
+１.git init (git化する)
+2. git add * (全ファイルを変更対象にとりこむ)
+3. git commit -m "intial commit"（変更対象をコミット）
+
+.gitignore ファイル作成
+1.コマンドプロンプトで type nul > .gitignore
+2. .gitignoreにgit化しないファイル、フォルダを追加
+
+git status : 変更対象になっている変更されたファイルを表示
+git log : 歴史を見る
+
+デスクトップアプリへの登録
+file - add local repository でレポジトリを登録
